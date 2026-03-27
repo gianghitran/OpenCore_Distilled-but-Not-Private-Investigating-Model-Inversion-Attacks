@@ -1,0 +1,12 @@
+pandas
+numpy
+hydra-core
+wandb
+torch
+tqdm
+scikit-learn
+imbalanced-learn
+torchmetrics
+sdv
+xgboost
+matplotlib

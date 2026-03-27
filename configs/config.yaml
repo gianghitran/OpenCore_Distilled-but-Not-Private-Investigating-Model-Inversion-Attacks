@@ -1,0 +1,22 @@
+# Tham số mặc định
+model:
+  type: MLP_General
+  num_hidden_layers: 4
+  hidden_dim: 1024
+kd:
+  method: traditional
+  alpha: 0.1
+  temperature: 3
+attack:
+  method: traditional
+dataset:
+  name: iotid20_sample_100
+
+# Cấu hình Hydra sweeper cho multirun
+hydra:
+  sweeper:
+    params:
+      model.type: choice('MLP', '1DCNN', 'ResNet', 'MLP_General')
+      kd.method: choice('traditional', 'TeacherOnlyKD')
+      attack.method: choice('traditional', 'improved')
+      dataset.name: choice('ciciot2023', 'cicids2017', 'cicids2018', 'iotid20', 'iotid20_sample_100')
