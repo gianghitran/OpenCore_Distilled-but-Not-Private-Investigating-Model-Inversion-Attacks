@@ -1,6 +1,6 @@
 # OpenCore_Distilled-but-Not-Private-Investigating-Model-Inversion-Attacks
 This repository contains the open-core implementation and experimental framework for the paper: 'Distilled but Not Private: Investigating Model Inversion Attacks on IoT Intrusion Detection Systems.' It explores how the knowledge distillation (KD) technique impacts training-data leakage.
-## ⚠️ Disclaimer & Proprietary Notice
+## Disclaimer & Proprietary Notice
 > Please note that this repository contains the **Open Core** version of the research framework. Due to the sensitive nature of security research and intellectual property (IP) agreements, certain critical modules and proprietary algorithms have been **selectively redacted or omitted**. 
 > 
 > The provided code is intended for academic demonstration and reproducibility of the core findings, rather than a full-scale production deployment.
@@ -64,9 +64,13 @@ All experiments are logged to Weights & Biases. We monitor: Attack convergence (
 ## Citation
 ```Code snippet
 @inproceedings{tran2026distillednprivate,
-  title={Distilled but Not Private: Investigating Model Inversion Attacks on IoT Intrusion Detection Systems},
-  author={Tran, Gia-Nghi and Nguyen, Da-Vit and Nguyen, Dat-Thinh and Le-Khac, Nhien-An and Le, Kim-Hung},
-  booktitle={---} (submited),
-  year={2026}
+  title     = {Distilled but Not Private: Investigating Model Inversion Attacks on IoT Intrusion Detection Systems},
+  author    = {Tran, Gia-Nghi and Nguyen, Da-Vit and Nguyen, Dat-Thinh and Le-Khac, Nhien-An and Le, Kim-Hung},
+  booktitle = {Proceedings of the 18th International Conference on Computational Collective Intelligence (ICCCI 2026)},
+  publisher = {Springer},
+  year      = {2026},
+  note       = {Accepted for publication}
 }
 ```
+<img width="1065" height="720" alt="Screenshot 2026-07-06 031009" src="https://github.com/user-attachments/assets/43cb7c0c-63ec-4233-9c93-933738d2f63c" />
+
